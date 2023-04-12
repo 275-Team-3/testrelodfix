@@ -1,35 +1,32 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable indent */
 import React from "react";
 import "./App.css";
-import { Col, Row, Container } from "react-bootstrap";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Admininventory from "./components/admininventory/admininventory";
+import Checkout from "./components/checkout/checkout";
+import Landing from "./components/landingpage/landing";
+import Login from "./components/loginpage/loginpage";
+import Makeaccount from "./components/makeaccount/makeaccount";
+import Navbar from "./components/navbarcomponent/navbar";
+import Productview from "./components/productview/productview";
+
 
 function App(): JSX.Element {
-    return (
-        <div className="App">
-            <Container>
-                <Row>
-                    <Col>
-                        <header className="App-header">
-                            UD CISC275 with React Hooks and TypeScript - Welcome
-                            Project! - Shay Patel, Eric Tlaseca - Morales,
-                            Joshua Taing, Arjun Manikyath, Stephen Wiafe, Thomas
-                            Pelosi
-                        </header>
-                    </Col>
-                    <Col>
-                        <header className="App-">
-                            UD CISC275 with React Hooks and TypeScript - Welcome
-                            Project! - Shay Patel, Eric Tlaseca - Morales,
-                            Joshua Taing, Arjun Manikyath, Stephen Wiafe, Thomas
-                            Pelosi
-                        </header>
-                    </Col>
-                </Row>
-            </Container>
-            <p>
-                Edit <code>src/App.tsx</code> and save. This page will
-                automatically reload.
-            </p>
-        </div>
+    return (<div className="App">
+<Router>
+    <Navbar />
+      <Routes>
+        <Route path="/Login" element={<Login/>}/>
+        <Route path="/Landing" element={<Landing/>}/>
+        <Route path="/Productview" element={<Productview/>}/>
+        <Route path="/Makeaccount" element={<Makeaccount/>}/>
+        <Route path="/Checkout" element={<Checkout/>}/>
+        <Route path="/Admininventory" element={<Admininventory/>}/>
+      </Routes>
+</Router>
+</div>
     );
 }
 
