@@ -13,14 +13,14 @@ function Login(): JSX.Element {
                 <div className="">
                     <Form.Group controlId="formBasicEmail">
                         <Form.Control
-                            className=""
+                            className="forms"
                             type="email"
                             placeholder="Email or Username"
                         />
                         <Form.Control type="password" placeholder="Password" />
                     </Form.Group>
                 </div>
-                <div className="">
+                <div className="middle-buttons">
                     <div>
                         <Button className="button">LOGIN NOW</Button>
                     </div>
