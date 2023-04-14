@@ -10,7 +10,7 @@ function Login(): JSX.Element {
             </div>
             <div className="">
                 <h2 className="">Welcome to Ekin</h2>
-                <div className="">
+                <div className="forms">
                     <Form.Group controlId="formBasicEmail">
                         <Form.Control
                             className="forms"
