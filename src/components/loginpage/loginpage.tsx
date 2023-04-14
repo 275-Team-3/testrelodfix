@@ -4,12 +4,12 @@ import Ronaldo from "./ronaldo.webp";
 
 function Login(): JSX.Element {
     return (
-        <div className="">
-            <div className="">
+        <div className="login">
+            <div className="login">
                 <img src={Ronaldo} />
             </div>
-            <div className="">
-                <h2 className="">Welcome to Ekin</h2>
+            <div className="login-info">
+                <h2 className="header">Welcome to Ekin</h2>
                 <div className="forms">
                     <Form.Group controlId="formBasicEmail">
                         <Form.Control
