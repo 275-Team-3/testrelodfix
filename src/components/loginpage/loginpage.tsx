@@ -22,7 +22,7 @@ function Login(): JSX.Element {
                 </div>
                 <div className="">
                     <div>
-                        <Button className="">LOGIN NOW</Button>
+                        <Button className="button">LOGIN NOW</Button>
                     </div>
                     <h6>Forgot your password?</h6>
                     <div>
