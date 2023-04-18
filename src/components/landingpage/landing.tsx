@@ -1,3 +1,4 @@
+/* eslint-disable no-extra-parens */
 import React, { useState } from "react";
 import Carousel from "react-elastic-carousel";
 import Slide from "./landingstyles";
