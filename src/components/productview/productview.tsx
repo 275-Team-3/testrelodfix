@@ -1,6 +1,5 @@
 /* eslint-disable indent */
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
 import "./productview.css";
 import prodImage from "./nike2.jpg";
 
