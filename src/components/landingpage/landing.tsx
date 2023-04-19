@@ -1,7 +1,7 @@
 /* eslint-disable no-extra-parens */
 import React, { useState } from "react";
-import Carousel from "react-elastic-carousel";
 import Slide from "./landingstyles";
+import { Carousel } from "react-bootstrap";
 
 const breakPoints = [
     { width: 1, showSlide: 1, scrollSlide: 1 },
@@ -31,7 +31,7 @@ function Landing(): JSX.Element {
                 <button onClick={addSlide}>Add</button>
             </div>
             <div className="Carousel">
-                <Carousel isRTL={false} breakPoints={breakPoints}>
+                <Carousel>
                     {slides.map((slide) => (
                         <Slide key={slide}>{slide}</Slide>
                     ))}
