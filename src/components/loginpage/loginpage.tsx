@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
-import Ronaldo from "./ronaldo.webp";
+import Ronaldo from "./r7.jpg";
+import "./loginpage.css";
 
 function Login(): JSX.Element {
     return (
