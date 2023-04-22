@@ -11,6 +11,9 @@ import Navbar from "./components/navbarcomponent/navbar";
 import Productview from "./components/productview/productview";
 
 function App(): JSX.Element {
+    fetch("https://dummyjson.com/products/category/mens-shoes")
+        .then((res) => res.json())
+        .then(console.log);
     return (
         <div className="App">
             <Router>
