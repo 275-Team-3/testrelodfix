@@ -7,7 +7,7 @@ function Makeaccount(): JSX.Element {
     return (
         <div className="App">
             <div className="profile">
-                <img src={avatar}></img>
+                <img className="img" src={avatar}></img>
             </div>
             <div className="forms">
                 <Form.Group controlId="formBasicEmail">
