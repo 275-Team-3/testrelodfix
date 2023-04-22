@@ -8,6 +8,15 @@ function Makeaccount(): JSX.Element {
             <div className="profile">
                 <img></img>
             </div>
+            <div className="forms">
+                <Form.Group controlId="formBasicEmail">
+                    <Form.Control
+                        className="forms"
+                        type="email"
+                        placeholder="Email"
+                    />
+                </Form.Group>
+            </div>
         </div>
     );
 }
