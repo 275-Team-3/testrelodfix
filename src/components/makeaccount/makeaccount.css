@@ -1,5 +1,13 @@
-* {
-    box-sizing: border-box;
+.profile{
+   background-color: rgb(122, 122, 122);
+   height: 150px;
+   clip-path: circle();
+   margin-bottom: 10px;
+   margin-top: 5px;
+   color: black;
 }
 
-/* Full-width input fields */
+.img{
+    width: 160px;
+    height: auto;
+}
