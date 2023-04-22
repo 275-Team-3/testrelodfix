@@ -25,6 +25,11 @@ function Makeaccount(): JSX.Element {
                         type="email"
                         placeholder="Qualities"
                     />
+                    <Form.Control
+                        className="forms"
+                        type="email"
+                        placeholder="Age"
+                    />
                 </Form.Group>
             </div>
         </div>
