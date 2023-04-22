@@ -32,6 +32,7 @@ function Makeaccount(): JSX.Element {
                     />
                 </Form.Group>
             </div>
+            <Button className="button">UPDATE</Button>
         </div>
     );
 }
