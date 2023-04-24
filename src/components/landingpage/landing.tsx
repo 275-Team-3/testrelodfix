@@ -1,4 +1,3 @@
-/* eslint-disable no-extra-parens */
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Stack from "react-bootstrap/Stack";
