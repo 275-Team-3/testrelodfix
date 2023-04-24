@@ -2,65 +2,78 @@ import React from "react";
 
 function Admininventory(): JSX.Element {
     return (
-        <html>
-            <head>
-                <title>Admin Inventory Page</title>
-            </head>
-            <body>
-                <h1>Admin Inventory Page</h1>
-                <div className="sidebar">
-                    <div className="logo-details">
-                        <i className="bx bxl-c-plus-plus"></i>
-                    </div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Product Name</th>
-                                <th>Price</th>
-                                <th>Quantity</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Nike Socks</td>
-                                <td>$10.99</td>
-                                <td>100</td>
-                            </tr>
-                            <tr>
-                                <td>Adidas Pants</td>
-                                <td>$19.99</td>
-                                <td>50</td>
-                            </tr>
-                            <tr>
-                                <td>Adidas Socks</td>
-                                <td>$5.99</td>
-                                <td>200</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <section className="home-section">
-                    <nav>
-                        <div className="sidebar-button">
-                            <i className="bx bx-menu sidebarBtn"></i>
-                            <span className="dashboard">Dashboard</span>
-                        </div>
-                        <div className="search-box">
-                            <input type="text" placeholder="Search..." />
-                            <i className="bx bx-search"></i>
-                        </div>
-                        <div className="profile-details">
-                            <span className="admin_name">Admin Inventory</span>
-                            <i className="bx bx-chevron-down"></i>
-                        </div>
-                    </nav>
-                </section>
-                <form>
-                    <label htmlFor="new-product-name">Product Name:</label>
-                    <button type="submit">Add Product</button>
-                </form>
-            </body>
-        </html>
+        <table className="table">
+            <thead>
+                <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col">Company</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Order Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Socks</th>
+                    <td>Nike</td>
+                    <td>$12.99</td>
+                    <td>#000001</td>
+                </tr>
+                <tr>
+                    <th scope="row">T-Shirt</th>
+                    <td>Adidas</td>
+                    <td>$24.99</td>
+                    <td>#000002</td>
+                </tr>
+                <tr>
+                    <th scope="row">Shorts</th>
+                    <td>Puma</td>
+                    <td>$19.99</td>
+                    <td>#000003</td>
+                </tr>
+                <tr>
+                    <th scope="row">Item</th>
+                    <td>Brand</td>
+                    <td>$</td>
+                    <td>#</td>
+                </tr>
+                <tr>
+                    <th scope="row">Item</th>
+                    <td>Brand</td>
+                    <td>$</td>
+                    <td>#</td>
+                </tr>
+                <tr>
+                    <th scope="row">Item</th>
+                    <td>Brand</td>
+                    <td>$</td>
+                    <td>#</td>
+                </tr>
+                <tr>
+                    <th scope="row">Item</th>
+                    <td>Brand</td>
+                    <td>$</td>
+                    <td>#</td>
+                </tr>
+                <tr>
+                    <th scope="row">Item</th>
+                    <td>Brand</td>
+                    <td>$</td>
+                    <td>#</td>
+                </tr>
+                <tr>
+                    <th scope="row">Item</th>
+                    <td>Brand</td>
+                    <td>$</td>
+                    <td>#</td>
+                </tr>
+                <tr>
+                    <th scope="row">Item</th>
+                    <td>Brand</td>
+                    <td>$</td>
+                    <td>#</td>
+                </tr>
+            </tbody>
+        </table>
     );
 }
 
