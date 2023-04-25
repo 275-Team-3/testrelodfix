@@ -14,7 +14,7 @@ function Makeaccount(): JSX.Element {
                     <Form.Control
                         className="forms"
                         type="email"
-                        placeholder="Email"
+                        placeholder="Please Enter Email"
                     />
                     <Form.Control
                         className="forms"
