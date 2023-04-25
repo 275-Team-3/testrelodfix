@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-extra-parens */
 import React from "react";
 import Card from "react-bootstrap/Card";
@@ -17,11 +18,146 @@ import img8 from "./lp_images/8.jpg";
 import img9 from "./lp_images/9.jpg";
 import img10 from "./lp_images/10.jpg";
 import img11 from "./lp_images/11.jpg";
+import img12 from "./lp_images/12.jpg";
 
 function Landing(): JSX.Element {
     return (
         <div>
             <h1 className="landing-title">Shop All</h1>
+            <Carousel className="carousel-wrapper">
+                <Carousel.Item className="carousel-items">
+                    <Stack
+                        className="h-100 justify-content-center align-items-center"
+                        direction="horizontal"
+                        gap={3}
+                    >
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img7} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>
+                                        Los Angeles Lakers LeBron James Gold
+                                        Jersey
+                                    </a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $110
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img8} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Stephen Curry Nike Swingman Jersey</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $150
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img9} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>
+                                        Giannis Antetokounmpo Hunter Green
+                                        Jersey
+                                    </a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $120
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Stack>
+                </Carousel.Item>
+                <Carousel.Item className="carousel-items">
+                    <Stack
+                        className="h-100 justify-content-center align-items-center"
+                        direction="horizontal"
+                        gap={3}
+                    >
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img10} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>
+                                        Mbappé Paris Saint-Germain Soccer Jersey
+                                    </a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $145
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img11} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Al Nassr Ronaldo Home Jersey</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $7
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img12} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>adidas Argentina Lionel Messi Jersey</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $150
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Stack>
+                </Carousel.Item>
+            </Carousel>
             <Carousel className="carousel-wrapper">
                 <Carousel.Item className="carousel-items">
                     <Stack
