@@ -12,6 +12,11 @@ import img3 from "./lp_images/3.jpg";
 import img4 from "./lp_images/4.jpg";
 import img5 from "./lp_images/5.jpg";
 import img6 from "./lp_images/6.jpg";
+import img7 from "./lp_images/7.jpg";
+import img8 from "./lp_images/8.jpg";
+import img9 from "./lp_images/9.jpg";
+import img10 from "./lp_images/10.jpg";
+import img11 from "./lp_images/11.jpg";
 
 function Landing(): JSX.Element {
     return (
@@ -35,11 +40,10 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Basketball (Dunk)</a>
-                                    <span>New Arrivals</span>
+                                    <a>Luka 1</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $10
+                                    $110
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -54,11 +58,10 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Skateboarder</a>
-                                    <span>New Arrivals</span>
+                                    <a>Zoom Freak 4</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $20
+                                    $130
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -73,11 +76,10 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Tennis Ball</a>
-                                    <span>New Arrivals</span>
+                                    <a>Giannis Immortality 2</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $30
+                                    $85
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -100,11 +102,10 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Boxing Gloves</a>
-                                    <span>New Arrivals</span>
+                                    <a>Lebron Witness 6</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $40
+                                    $90
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -119,11 +120,10 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Roadbike</a>
-                                    <span>New Arrivals</span>
+                                    <a>Air Jordan XXXVII SP</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $50
+                                    $140
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -138,277 +138,10 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Basketball (Pass)</a>
-                                    <span>New Arrivals</span>
+                                    <a>Nike Renew Elevate 3</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $60
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Stack>
-                </Carousel.Item>
-            </Carousel>
-            <br></br>
-            <Carousel className="carousel-wrapper">
-                <Carousel.Item className="carousel-items">
-                    <Stack
-                        className="h-100 justify-content-center align-items-center"
-                        direction="horizontal"
-                        gap={3}
-                    >
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img1} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Basketball (Dunk)</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $10
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img2} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Skateboarder</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $20
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img3} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Tennis Ball</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $30
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Stack>
-                </Carousel.Item>
-                <Carousel.Item className="carousel-items">
-                    <Stack
-                        className="h-100 justify-content-center align-items-center"
-                        direction="horizontal"
-                        gap={3}
-                    >
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img4} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Boxing Gloves</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $40
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img5} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Roadbike</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $50
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img6} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Basketball (Pass)</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $60
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Stack>
-                </Carousel.Item>
-            </Carousel>
-            <br></br>
-            <Carousel className="carousel-wrapper">
-                <Carousel.Item className="carousel-items">
-                    <Stack
-                        className="h-100 justify-content-center align-items-center"
-                        direction="horizontal"
-                        gap={3}
-                    >
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img1} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Basketball (Dunk)</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $10
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img2} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Skateboarder</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $20
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img3} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Tennis Ball</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $30
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Stack>
-                </Carousel.Item>
-                <Carousel.Item className="carousel-items">
-                    <Stack
-                        className="h-100 justify-content-center align-items-center"
-                        direction="horizontal"
-                        gap={3}
-                    >
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img4} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Boxing Gloves</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $40
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img5} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Roadbike</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $50
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="card">
-                            <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img6} />
-                                <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
-                                    </Button>
-                                </div>
-                            </div>
-                            <Card.Body className="card-details">
-                                <Card.Text className="product-type">
-                                    <a>Basketball (Pass)</a>
-                                    <span>New Arrivals</span>
-                                </Card.Text>
-                                <Card.Text className="product-price">
-                                    $60
+                                    $70
                                 </Card.Text>
                             </Card.Body>
                         </Card>
