@@ -19,6 +19,12 @@ import img9 from "./lp_images/9.jpg";
 import img10 from "./lp_images/10.jpg";
 import img11 from "./lp_images/11.jpg";
 import img12 from "./lp_images/12.jpg";
+import img13 from "./lp_images/13.jpg";
+import img14 from "./lp_images/14.jpg";
+import img15 from "./lp_images/15.jpg";
+import img16 from "./lp_images/16.jpg";
+import img17 from "./lp_images/17.jpg";
+import img18 from "./lp_images/18.jpg";
 
 function Landing(): JSX.Element {
     return (
@@ -278,6 +284,132 @@ function Landing(): JSX.Element {
                                 </Card.Text>
                                 <Card.Text className="product-price">
                                     $70
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Stack>
+                </Carousel.Item>
+            </Carousel>
+            <Carousel className="carousel-wrapper">
+                <Carousel.Item className="carousel-items">
+                    <Stack
+                        className="h-100 justify-content-center align-items-center"
+                        direction="horizontal"
+                        gap={3}
+                    >
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img13} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Mountain Bike</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $299.99
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img14} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Everlast Boxing Gloves</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $69.99
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img15} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Nike Vapor Football Gloves</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $50.00
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Stack>
+                </Carousel.Item>
+                <Carousel.Item className="carousel-items">
+                    <Stack
+                        className="h-100 justify-content-center align-items-center"
+                        direction="horizontal"
+                        gap={3}
+                    >
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img16} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Arm Sleeve</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $30
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img17} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>adidas Knee Pads </a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $30.00
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img18} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Tennis Racquet</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $24.99
                                 </Card.Text>
                             </Card.Body>
                         </Card>
