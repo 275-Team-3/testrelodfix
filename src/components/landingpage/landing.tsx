@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-extra-parens */
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Stack from "react-bootstrap/Stack";
@@ -11,6 +13,18 @@ import img3 from "./lp_images/3.jpg";
 import img4 from "./lp_images/4.jpg";
 import img5 from "./lp_images/5.jpg";
 import img6 from "./lp_images/6.jpg";
+import img7 from "./lp_images/7.jpg";
+import img8 from "./lp_images/8.jpg";
+import img9 from "./lp_images/9.jpg";
+import img10 from "./lp_images/10.jpg";
+import img11 from "./lp_images/11.jpg";
+import img12 from "./lp_images/12.jpg";
+import img13 from "./lp_images/13.jpg";
+import img14 from "./lp_images/14.jpg";
+import img15 from "./lp_images/15.jpg";
+import img16 from "./lp_images/16.jpg";
+import img17 from "./lp_images/17.jpg";
+import img18 from "./lp_images/18.jpg";
 
 function Landing(): JSX.Element {
     return (
@@ -25,7 +39,7 @@ function Landing(): JSX.Element {
                     >
                         <Card className="card">
                             <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img1} />
+                                <Card.Img className="card-img" src={img7} />
                                 <div className="overlay">
                                     <Button className="buy-btn" variant="light">
                                         Buy Now!
@@ -34,17 +48,19 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Basketball (Dunk)</a>
-                                    <span>New Arrivals</span>
+                                    <a>
+                                        Los Angeles Lakers LeBron James Gold
+                                        Jersey
+                                    </a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $10
+                                    $110
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                         <Card className="card">
                             <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img2} />
+                                <Card.Img className="card-img" src={img8} />
                                 <div className="overlay">
                                     <Button className="buy-btn" variant="light">
                                         Buy Now!
@@ -53,17 +69,16 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Skateboarder</a>
-                                    <span>New Arrivals</span>
+                                    <a>Stephen Curry Nike Swingman Jersey</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $20
+                                    $150
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                         <Card className="card">
                             <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img3} />
+                                <Card.Img className="card-img" src={img9} />
                                 <div className="overlay">
                                     <Button className="buy-btn" variant="light">
                                         Buy Now!
@@ -72,11 +87,13 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Tennis Ball</a>
-                                    <span>New Arrivals</span>
+                                    <a>
+                                        Giannis Antetokounmpo Hunter Green
+                                        Jersey
+                                    </a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $30
+                                    $120
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -90,7 +107,7 @@ function Landing(): JSX.Element {
                     >
                         <Card className="card">
                             <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img4} />
+                                <Card.Img className="card-img" src={img10} />
                                 <div className="overlay">
                                     <Button className="buy-btn" variant="light">
                                         Buy Now!
@@ -99,17 +116,18 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Boxing Gloves</a>
-                                    <span>New Arrivals</span>
+                                    <a>
+                                        Mbappé Paris Saint-Germain Soccer Jersey
+                                    </a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $40
+                                    $145
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                         <Card className="card">
                             <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img5} />
+                                <Card.Img className="card-img" src={img11} />
                                 <div className="overlay">
                                     <Button className="buy-btn" variant="light">
                                         Buy Now!
@@ -118,17 +136,16 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Roadbike</a>
-                                    <span>New Arrivals</span>
+                                    <a>Al Nassr Ronaldo Home Jersey</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $50
+                                    $7
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                         <Card className="card">
                             <div className="card-img-wrapper">
-                                <Card.Img className="card-img" src={img6} />
+                                <Card.Img className="card-img" src={img12} />
                                 <div className="overlay">
                                     <Button className="buy-btn" variant="light">
                                         Buy Now!
@@ -137,18 +154,16 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Basketball (Pass)</a>
-                                    <span>New Arrivals</span>
+                                    <a>adidas Argentina Lionel Messi Jersey</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $60
+                                    $150
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </Stack>
                 </Carousel.Item>
             </Carousel>
-            <br></br>
             <Carousel className="carousel-wrapper">
                 <Carousel.Item className="carousel-items">
                     <Stack
@@ -167,11 +182,10 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Basketball (Dunk)</a>
-                                    <span>New Arrivals</span>
+                                    <a>Luka 1</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $10
+                                    $110
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -186,11 +200,10 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Skateboarder</a>
-                                    <span>New Arrivals</span>
+                                    <a>Zoom Freak 4</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $20
+                                    $130
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -205,11 +218,10 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Tennis Ball</a>
-                                    <span>New Arrivals</span>
+                                    <a>Giannis Immortality 2</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $30
+                                    $85
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -232,11 +244,10 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Boxing Gloves</a>
-                                    <span>New Arrivals</span>
+                                    <a>Lebron Witness 6</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $40
+                                    $90
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -251,11 +262,10 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Roadbike</a>
-                                    <span>New Arrivals</span>
+                                    <a>Air Jordan XXXVII SP</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $50
+                                    $140
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -270,11 +280,136 @@ function Landing(): JSX.Element {
                             </div>
                             <Card.Body className="card-details">
                                 <Card.Text className="product-type">
-                                    <a>Basketball (Pass)</a>
-                                    <span>New Arrivals</span>
+                                    <a>Nike Renew Elevate 3</a>
                                 </Card.Text>
                                 <Card.Text className="product-price">
-                                    $60
+                                    $70
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Stack>
+                </Carousel.Item>
+            </Carousel>
+            <Carousel className="carousel-wrapper">
+                <Carousel.Item className="carousel-items">
+                    <Stack
+                        className="h-100 justify-content-center align-items-center"
+                        direction="horizontal"
+                        gap={3}
+                    >
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img13} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Mountain Bike</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $299.99
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img14} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Everlast Boxing Gloves</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $69.99
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img15} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Nike Vapor Football Gloves</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $50.00
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Stack>
+                </Carousel.Item>
+                <Carousel.Item className="carousel-items">
+                    <Stack
+                        className="h-100 justify-content-center align-items-center"
+                        direction="horizontal"
+                        gap={3}
+                    >
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img16} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Arm Sleeve</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $30
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img17} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>adidas Knee Pads </a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $30.00
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="card">
+                            <div className="card-img-wrapper">
+                                <Card.Img className="card-img" src={img18} />
+                                <div className="overlay">
+                                    <Button className="buy-btn" variant="light">
+                                        Buy Now!
+                                    </Button>
+                                </div>
+                            </div>
+                            <Card.Body className="card-details">
+                                <Card.Text className="product-type">
+                                    <a>Tennis Racquet</a>
+                                </Card.Text>
+                                <Card.Text className="product-price">
+                                    $24.99
                                 </Card.Text>
                             </Card.Body>
                         </Card>
