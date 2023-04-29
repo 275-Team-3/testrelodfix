@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import Ronaldo from "./r7.jpg";
 import "./loginpage.css";
@@ -6,9 +6,12 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/messaging";
 import "firebase/compat/firestore";
+import Navbar from "../navbarcomponent/navbar";
+import { Navigate } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
 
 function Login(): JSX.Element {
+    // const [user, setUser] = useState(true);
     firebase.initializeApp({
         apiKey: "AIzaSyDuuO3Qvj_guTliM6iPgV3_5dF0OWOLi-0",
         authDomain: "proj-15d75.firebaseapp.com",
@@ -23,6 +26,9 @@ function Login(): JSX.Element {
 
     const signInBox = () => {
         authenticate.signInWithPopup(authenticationService);
+        const user = firebase.auth().currentUser;
+        console.log("AYYYYO");
+        console.log(user);
     };
     return (
         <div className="login">
@@ -55,7 +61,6 @@ function Login(): JSX.Element {
                     <Button>Log in as Admin</Button>
                 </div>
             </div>
-            {/* <section>{user ? console.log("is in") : console.log("no")}</section> */}
         </div>
     );
 }
