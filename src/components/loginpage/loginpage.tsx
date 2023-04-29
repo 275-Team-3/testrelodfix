@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button, Form } from "react-bootstrap";
 import Ronaldo from "./r7.jpg";
 import "./loginpage.css";
@@ -6,9 +6,6 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/messaging";
 import "firebase/compat/firestore";
-import Navbar from "../navbarcomponent/navbar";
-import { Navigate } from "react-router-dom";
-import { useAuthState } from "react-firebase-hooks/auth";
 
 function Login(): JSX.Element {
     // const [user, setUser] = useState(true);
