@@ -8,7 +8,6 @@ import Landing from "./components/landingpage/landing";
 import Login from "./components/loginpage/loginpage";
 import Makeaccount from "./components/makeaccount/makeaccount";
 import Productview from "./components/productview/productview";
-import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/messaging";
 import "firebase/compat/firestore";
