@@ -2,12 +2,10 @@
 import React from "react";
 import "./productview.css";
 import prodImage from "./nike2.jpg";
-import Navbar from "../navbarcomponent/navbar";
 
 function Productview(): JSX.Element {
     return (
         <div className="Productview">
-            <Navbar />
             <div className="leftColumn">
                 <img src={prodImage} className="imageDimension" />
             </div>

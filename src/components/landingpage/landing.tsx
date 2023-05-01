@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable no-extra-parens */
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Stack from "react-bootstrap/Stack";
@@ -30,7 +28,6 @@ import img18 from "./lp_images/18.jpg";
 function Landing(): JSX.Element {
     return (
         <div>
-            <Navbar />
             <h1 className="landing-title">Shop All</h1>
             <Carousel className="carousel-wrapper">
                 <Carousel.Item className="carousel-items">
