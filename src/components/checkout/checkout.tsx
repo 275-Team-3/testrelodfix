@@ -51,6 +51,11 @@ function Checkout(): JSX.Element {
                         <td>3</td>
                         <td>$59.97</td>
                     </tr>
+                    <div className="checkoutCart">
+                        <button type="button" className="btn btn-light btn-lg">
+                            CHECKOUT 🛒
+                        </button>
+                    </div>
                 </tbody>
             </table>
         </div>
