@@ -15,22 +15,22 @@ function Checkout(): JSX.Element {
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">Socks</th>
-                        <td>Nike</td>
+                        <th scope="row">Compression Socks</th>
                         <td>$12.99</td>
-                        <td>#000001</td>
+                        <td>1</td>
+                        <td>$12.99</td>
                     </tr>
                     <tr>
-                        <th scope="row">T-Shirt</th>
-                        <td>Adidas</td>
+                        <th scope="row">Adidas T-Shirt</th>
                         <td>$24.99</td>
-                        <td>#000002</td>
+                        <td>2</td>
+                        <td>$49.98</td>
                     </tr>
                     <tr>
-                        <th scope="row">Shorts</th>
-                        <td>Puma</td>
+                        <th scope="row">Champion Shorts</th>
                         <td>$19.99</td>
-                        <td>#000003</td>
+                        <td>3</td>
+                        <td>$59.97</td>
                     </tr>
                 </tbody>
             </table>
