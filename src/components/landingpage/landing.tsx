@@ -45,8 +45,12 @@ function Landing(): JSX.Element {
                             <div className="card-img-wrapper">
                                 <Card.Img className="card-img" src={img7} />
                                 <div className="overlay">
-                                    <Button onClick={() => setclick(!isclick)}>
-                                        Button
+                                    <Button
+                                        className="buy-btn"
+                                        variant="light"
+                                        onClick={() => setclick(!isclick)}
+                                    >
+                                        PRODUCT VIEW TEST BUTTON
                                     </Button>
                                 </div>
                             </div>
