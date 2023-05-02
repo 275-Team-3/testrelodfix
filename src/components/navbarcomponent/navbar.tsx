@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Nav, NavLink, NavMenu } from "./navbarstyle";
+import UserIcon from "../userIcon";
 // import Admininventory from "./components/admininventory/admininventory";
 // import Checkout from "./components/checkout/checkout";
 // import Landing from "./components/landingpage/landing";
@@ -11,10 +12,11 @@ const Navbar = () => {
     return (
         <>
             <Nav>
+                <UserIcon />
                 <NavMenu>
-                    <NavLink to="/homepage">Login</NavLink>
+                    <NavLink to="/Login">Login</NavLink>
                     <NavLink to="/Landing">Landing</NavLink>
-                    <NavLink to="/Productview">Product View</NavLink>
+                    {/* <NavLink to="/Productview">Product View</NavLink> */}
                     <NavLink to="/Makeaccount">Account</NavLink>
                     <NavLink to="/Checkout">Checkout</NavLink>
                     <NavLink to="/Admininventory">Admin inventory</NavLink>

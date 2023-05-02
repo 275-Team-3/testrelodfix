@@ -1,15 +1,14 @@
 import React from "react";
 import "./makeaccount.css";
 import { Button, Form } from "react-bootstrap";
+import UserIcon from "../userIcon";
 import avatar from "./avatar.png";
 
-import Navbar from "../navbarcomponent/navbar";
 function Makeaccount(): JSX.Element {
     return (
         <div className="App">
-            <Navbar />
             <div className="profile">
-                <img className="img" src={avatar}></img>
+                <UserIcon />
             </div>
             <div className="forms">
                 <Form.Group controlId="formBasicEmail">

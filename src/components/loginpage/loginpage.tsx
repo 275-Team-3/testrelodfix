@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import Ronaldo from "./r7.jpg";
 import "./loginpage.css";
@@ -6,9 +6,12 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/messaging";
 import "firebase/compat/firestore";
+import Makeaccount from "../makeaccount/makeaccount";
 
 function Login(): JSX.Element {
     // const [user, setUser] = useState(true);
+    const [usera, setUser] = useState<string>("");
+    const [useraimg, setUseraImg] = useState<string>("");
     firebase.initializeApp({
         apiKey: "AIzaSyDuuO3Qvj_guTliM6iPgV3_5dF0OWOLi-0",
         authDomain: "proj-15d75.firebaseapp.com",
@@ -24,7 +27,12 @@ function Login(): JSX.Element {
     const signInBox = () => {
         authenticate.signInWithPopup(authenticationService);
         const user = firebase.auth().currentUser;
-        console.log("AYYYYO");
+        if (user?.displayName != null) {
+            setUser(user.displayName);
+        }
+        if (user?.photoURL != null) {
+            setUseraImg(user.photoURL);
+        }
         console.log(user);
     };
     return (
@@ -33,7 +41,7 @@ function Login(): JSX.Element {
                 <img src={Ronaldo} />
             </div>
             <div className="login-info">
-                <h2 className="header">Welcome to Ekin</h2>
+                <h2 className="header">Welcome to Ekin, {usera}</h2>
                 <div className="forms">
                     <Form.Group controlId="formBasicEmail">
                         <Form.Control
@@ -58,6 +66,9 @@ function Login(): JSX.Element {
                     <Button>Log in as Admin</Button>
                 </div>
             </div>
+            <h2>
+                <img src={useraimg} alt="" />
+            </h2>
         </div>
     );
 }

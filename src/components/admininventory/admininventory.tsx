@@ -1,9 +1,7 @@
 import React from "react";
-import Navbar from "../navbarcomponent/navbar";
 function Admininventory(): JSX.Element {
     return (
         <div>
-            <Navbar />
             <table className="table">
                 <thead>
                     <tr>
