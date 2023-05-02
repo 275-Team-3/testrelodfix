@@ -1,20 +1,27 @@
 /* eslint-disable indent */
 import React from "react";
 import "./productview.css";
-import prodImage from "./nike2.jpg";
+import { useNavigate } from "react-router-dom";
 
-function Productview(): JSX.Element {
+interface productDetails {
+    name: string;
+    price: number;
+    imge: string;
+}
+
+function Productview(props: productDetails): JSX.Element {
+    const setPath = useNavigate();
     return (
         <div className="Productview">
             <div className="leftColumn">
-                <img src={prodImage} className="imageDimension" />
+                <img src={props.imge} className="imageDimension" />
             </div>
             <div className="rightColumn">
                 <div className="productNameArea">
-                    <h1 className="productName">NIKE AIR ZOOM 270</h1>
+                    <h1 className="productName">{props.name}</h1>
 
                     <div className="productPriceArea">
-                        <h5 className="productPrice">$70.99</h5>
+                        <h5 className="productPrice">{props.price}</h5>
                     </div>
                     <div className="sizeWord">
                         <h3>SIZES</h3>
@@ -81,7 +88,11 @@ function Productview(): JSX.Element {
                 </div>
                 <div className="userSelectedSize"></div>
                 <div className="addcart">
-                    <button type="button" className="btn btn-dark btn-lg">
+                    <button
+                        type="button"
+                        className="btn btn-dark btn-lg"
+                        onClick={() => setPath("/checkout")}
+                    >
                         ADD TO CART 🛒
                     </button>
                 </div>

@@ -17,9 +17,9 @@ function App(): JSX.Element {
             <Router>
                 <Navbar />
                 <Routes>
-                    <Route path="/Login" element={<Login />} />
+                    <Route path="/login" element={<Login />} />
                     <Route path="/Landing" element={<Landing />} />
-                    <Route path="/Productview" element={<Productview />} />
+                    {/* <Route path="/Productview" element={<Productview />} /> */}
                     <Route path="/Makeaccount" element={<Makeaccount />} />
                     <Route path="/Checkout" element={<Checkout />} />
                     <Route path="/Admin" element={<Admin />} />
