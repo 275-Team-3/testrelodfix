@@ -19,7 +19,10 @@ function App(): JSX.Element {
                     <Route path="/login" element={<Login />} />
                     <Route path="/Landing" element={<Landing />} />
                     <Route path="/Productview" element={<Productview />} />
-                    <Route path="/Makeaccount" element={<Makeaccount />} />
+                    <Route
+                        path="/Makeaccount"
+                        element={<Makeaccount profilepic={""} />}
+                    />
                     <Route path="/Checkout" element={<Checkout />} />
                     <Route
                         path="/Admininventory"

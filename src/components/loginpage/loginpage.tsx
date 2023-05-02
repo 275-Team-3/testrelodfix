@@ -6,6 +6,8 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/messaging";
 import "firebase/compat/firestore";
+import Makeaccount from "../makeaccount/makeaccount";
+import Userimgicon from "../userimgicon";
 
 function Login(): JSX.Element {
     // const [user, setUser] = useState(true);
@@ -32,6 +34,7 @@ function Login(): JSX.Element {
         if (user?.photoURL != null) {
             setUseraImg(user.photoURL);
         }
+        console.log(user);
     };
     return (
         <div className="login">
@@ -39,7 +42,7 @@ function Login(): JSX.Element {
                 <img src={Ronaldo} />
             </div>
             <div className="login-info">
-                <h2 className="header">Welcome to Ekin, {usera} !</h2>
+                <h2 className="header">Welcome to Ekin, {usera}</h2>
                 <div className="forms">
                     <Form.Group controlId="formBasicEmail">
                         <Form.Control
@@ -67,6 +70,7 @@ function Login(): JSX.Element {
             <h2>
                 <img src={useraimg} alt="" />
             </h2>
+            <Userimgicon profilepic={useraimg}></Userimgicon>;
         </div>
     );
 }

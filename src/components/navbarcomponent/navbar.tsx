@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Nav, NavLink, NavMenu } from "./navbarstyle";
+import Userimgicon from "../userimgicon";
 // import Admininventory from "./components/admininventory/admininventory";
 // import Checkout from "./components/checkout/checkout";
 // import Landing from "./components/landingpage/landing";
@@ -8,9 +9,17 @@ import { Nav, NavLink, NavMenu } from "./navbarstyle";
 // import Navbar from "./components/navbarcomponent/navbar";
 // import Productview from "./components/productview/productview";
 const Navbar = () => {
+    const [seed, setSeed] = useState(0);
+
+    useEffect(() => {
+        return setSeed(Math.floor(Math.random() * 5000));
+    }, []);
     return (
         <>
             <Nav>
+                <img
+                    src={`https://avatars.dicebear.com/api/human/${seed}.svg`}
+                />
                 <NavMenu>
                     <NavLink to="/Login">Login</NavLink>
                     <NavLink to="/Landing">Landing</NavLink>
