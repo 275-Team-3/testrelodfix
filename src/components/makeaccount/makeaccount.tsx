@@ -2,7 +2,6 @@ import React from "react";
 import "./makeaccount.css";
 import { Button, Form } from "react-bootstrap";
 import UserIcon from "../userIcon";
-import avatar from "./avatar.png";
 
 function Makeaccount(): JSX.Element {
     return (

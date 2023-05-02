@@ -8,8 +8,6 @@ import Landing from "./components/landingpage/landing";
 import Login from "./components/loginpage/loginpage";
 import Makeaccount from "./components/makeaccount/makeaccount";
 import Navbar from "./components/navbarcomponent/navbar";
-import Productview from "./components/productview/productview";
-import UserIcon from "./components/userIcon";
 
 function App(): JSX.Element {
     return (
