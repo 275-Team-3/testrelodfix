@@ -9,6 +9,7 @@ import Login from "./components/loginpage/loginpage";
 import Makeaccount from "./components/makeaccount/makeaccount";
 import Navbar from "./components/navbarcomponent/navbar";
 import Productview from "./components/productview/productview";
+import UserIcon from "./components/userIcon";
 
 function App(): JSX.Element {
     return (
@@ -18,11 +19,8 @@ function App(): JSX.Element {
                 <Routes>
                     <Route path="/login" element={<Login />} />
                     <Route path="/Landing" element={<Landing />} />
-                    <Route path="/Productview" element={<Productview />} />
-                    <Route
-                        path="/Makeaccount"
-                        element={<Makeaccount profilepic={""} />}
-                    />
+                    {/* <Route path="/Productview" element={<Productview />} /> */}
+                    <Route path="/Makeaccount" element={<Makeaccount />} />
                     <Route path="/Checkout" element={<Checkout />} />
                     <Route
                         path="/Admininventory"

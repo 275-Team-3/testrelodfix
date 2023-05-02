@@ -1,16 +1,14 @@
 import React from "react";
 import "./makeaccount.css";
 import { Button, Form } from "react-bootstrap";
+import UserIcon from "../userIcon";
 import avatar from "./avatar.png";
-interface IDCardProps {
-    profilepic: string;
-}
 
-function Makeaccount(props: IDCardProps): JSX.Element {
+function Makeaccount(): JSX.Element {
     return (
         <div className="App">
             <div className="profile">
-                <img className="img" src={props.profilepic}></img>
+                <UserIcon />
             </div>
             <div className="forms">
                 <Form.Group controlId="formBasicEmail">

@@ -7,7 +7,6 @@ import "firebase/compat/auth";
 import "firebase/compat/messaging";
 import "firebase/compat/firestore";
 import Makeaccount from "../makeaccount/makeaccount";
-import Userimgicon from "../userimgicon";
 
 function Login(): JSX.Element {
     // const [user, setUser] = useState(true);
@@ -70,7 +69,6 @@ function Login(): JSX.Element {
             <h2>
                 <img src={useraimg} alt="" />
             </h2>
-            <Userimgicon profilepic={useraimg}></Userimgicon>;
         </div>
     );
 }

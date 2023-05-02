@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Stack from "react-bootstrap/Stack";
 import Button from "react-bootstrap/Button";
@@ -25,7 +25,12 @@ import img16 from "./lp_images/16.jpg";
 import img17 from "./lp_images/17.jpg";
 import img18 from "./lp_images/18.jpg";
 
+import Productview from "../productview/productview";
+import Makeaccount from "../makeaccount/makeaccount";
+import { useNavigate } from "react-router-dom";
 function Landing(): JSX.Element {
+    const [isclick, setclick] = useState(false);
+    const navigate = useNavigate();
     return (
         <div>
             <h1 className="landing-title">Shop All</h1>
@@ -40,8 +45,8 @@ function Landing(): JSX.Element {
                             <div className="card-img-wrapper">
                                 <Card.Img className="card-img" src={img7} />
                                 <div className="overlay">
-                                    <Button className="buy-btn" variant="light">
-                                        Buy Now!
+                                    <Button onClick={() => setclick(!isclick)}>
+                                        Button
                                     </Button>
                                 </div>
                             </div>
@@ -415,6 +420,9 @@ function Landing(): JSX.Element {
                     </Stack>
                 </Carousel.Item>
             </Carousel>
+            {isclick == true ? (
+                <Productview name="bobs" price={44} imge={img7} />
+            ) : null}
         </div>
     );
 }
