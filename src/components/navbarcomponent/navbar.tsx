@@ -1,13 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Nav, NavLink, NavMenu } from "./navbarstyle";
 import UserIcon from "../userIcon";
-// import Admininventory from "./components/admininventory/admininventory";
-// import Checkout from "./components/checkout/checkout";
-// import Landing from "./components/landingpage/landing";
-// import Login from "./components/loginpage/loginpage";
-// import Makeaccount from "./components/makeaccount/makeaccount";
-// import Navbar from "./components/navbarcomponent/navbar";
-// import Productview from "./components/productview/productview";
+
 const Navbar = () => {
     return (
         <>

@@ -6,7 +6,6 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/messaging";
 import "firebase/compat/firestore";
-import Makeaccount from "../makeaccount/makeaccount";
 
 function Login(): JSX.Element {
     // const [user, setUser] = useState(true);

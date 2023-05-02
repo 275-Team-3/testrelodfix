@@ -1,7 +1,6 @@
 /* eslint-disable indent */
 import React from "react";
 import "./productview.css";
-import prodImage from "./nike2.jpg";
 import { useNavigate } from "react-router-dom";
 
 interface productDetails {

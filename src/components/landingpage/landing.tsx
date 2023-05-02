@@ -3,7 +3,6 @@ import Card from "react-bootstrap/Card";
 import Stack from "react-bootstrap/Stack";
 import Button from "react-bootstrap/Button";
 import Carousel from "react-bootstrap/Carousel";
-import Navbar from "../navbarcomponent/navbar";
 import "./landingstyles.css";
 
 import img1 from "./lp_images/1.jpg";
@@ -24,13 +23,9 @@ import img15 from "./lp_images/15.jpg";
 import img16 from "./lp_images/16.jpg";
 import img17 from "./lp_images/17.jpg";
 import img18 from "./lp_images/18.jpg";
-
 import Productview from "../productview/productview";
-import Makeaccount from "../makeaccount/makeaccount";
-import { useNavigate } from "react-router-dom";
 function Landing(): JSX.Element {
     const [isclick, setclick] = useState(false);
-    const navigate = useNavigate();
     return (
         <div>
             <h1 className="landing-title">Shop All</h1>
