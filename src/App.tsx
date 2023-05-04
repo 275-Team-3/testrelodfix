@@ -13,6 +13,7 @@ import Admin from "./components/adminlogin.css/admin";
 function App(): JSX.Element {
     return (
         <div className="App">
+            <h2>YOLOman</h2>
             <Router>
                 <Navbar />
                 <Routes>
