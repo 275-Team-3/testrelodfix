@@ -13,7 +13,7 @@ import Admin from "./components/adminlogin.css/admin";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <h2>YOLOman</h2>
+            <h2>RONALDO GOAT, Messi who?</h2>
             <Router>
                 <Navbar />
                 <Routes>
