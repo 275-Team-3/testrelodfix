@@ -13,8 +13,9 @@ import Admin from "./components/adminlogin.css/admin";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <h2>RONALDO GOAT, Messi who?</h2>
-            <Router basename="/testrelodfix">
+            {/* <h2>RONALDO GOAT, Messi who?</h2> */}
+            {/* <Router basename="/testrelodfix"> */}
+            <Router>
                 <Navbar />
                 <Routes>
                     <Route path="/login" element={<Login />} />
