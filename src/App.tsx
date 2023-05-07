@@ -14,8 +14,8 @@ function App(): JSX.Element {
     return (
         <div className="App">
             {/* <h2>RONALDO GOAT, Messi who?</h2> */}
-            <Router basename="/testrelodfix" />
-            <Router>
+            {/* <Router basename="/testrelodfix" /> */}
+            <Router basename="/testrelodfix">
                 <Navbar />
                 <Routes>
                     <Route path="/login" element={<Login />} />
