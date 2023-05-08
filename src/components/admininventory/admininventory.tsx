@@ -1,4 +1,5 @@
 import React from "react";
+import Testt from "../testt";
 function Admininventory(): JSX.Element {
     return (
         <div>
@@ -74,6 +75,7 @@ function Admininventory(): JSX.Element {
                     </tr>
                 </tbody>
             </table>
+            <Testt />
         </div>
     );
 }
