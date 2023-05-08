@@ -25,6 +25,15 @@ import img16 from "./lp_images/16.jpg";
 import img17 from "./lp_images/17.jpg";
 import img18 from "./lp_images/18.jpg";
 import Productview from "../productview/productview";
+
+const saveDataKey = "MY-PAGE-DATA";
+let daya: number[] = [];
+// Check if the user's data already exists
+const previousData = localStorage.getItem(saveDataKey);
+if (previousData !== null) {
+    daya = JSON.parse(previousData);
+}
+
 function Landing(): JSX.Element {
     const [isclick, setclick] = useState(false);
     return (
@@ -420,6 +429,11 @@ function Landing(): JSX.Element {
                     </Stack>
                 </Carousel.Item>
             </Carousel>
+            <ol>
+                {daya.map((value: number) => (
+                    <li key={value}>{value}</li>
+                ))}
+            </ol>
             {isclick == true ? (
                 <Productview name="bobs" price={44} imge={img7} />
             ) : null}
