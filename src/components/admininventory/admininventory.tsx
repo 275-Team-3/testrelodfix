@@ -1,11 +1,7 @@
+/* eslint-disable no-extra-parens */
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
-import Testt from "../testt";
-interface productDetails {
-    name: string;
-    price: number;
-    imge: string;
-}
+
 let inventoryData = [
     {
         Product: "Nike mercury",
@@ -137,6 +133,7 @@ function Admininventory(): JSX.Element {
                         <th scope="col">Price</th>
                         <th scope="col">Stock</th>
                         <th scope="col">Image</th>
+                        <th scope="col">Remove</th>
                     </tr>
                 </thead>
                 <tbody>
