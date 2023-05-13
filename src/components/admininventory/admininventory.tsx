@@ -147,6 +147,9 @@ function Admininventory(): JSX.Element {
                             <td>
                                 <img width="20%" src={item.Photo} />
                             </td>
+                            <td>
+                                <Button>Remove</Button>
+                            </td>
                         </tr>
                     ))}
                 </tbody>
