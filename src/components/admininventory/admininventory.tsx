@@ -9,7 +9,7 @@ let inventoryData = [
         Price: "200",
         Stock: "94",
         Brand: "nike",
-        Photo: "../src/components/landingpage/lp_images/1.jpg"
+        Photo: "../landingpage/lp_images/1.jpg"
     }
 ];
 const saveDataKey = "MY-PAGE-INVE-1";
@@ -76,6 +76,14 @@ function Admininventory(): JSX.Element {
         console.log(data);
     }
 
+    function removeFromInventory(productName: string) {
+        const copiedData = [...data];
+        const dataWithRemovedItem = copiedData.filter(
+            (item): boolean => item.Product != productName
+        );
+        setData(dataWithRemovedItem);
+    }
+
     function form(): JSX.Element {
         return (
             <h2>
@@ -94,14 +102,20 @@ function Admininventory(): JSX.Element {
                     />
                     <Form.Control
                         className="forms"
+                        type=""
+                        placeholder="Description"
+                        onChange={updateDescription}
+                    />
+                    <Form.Control
+                        className="forms"
                         type="Price"
                         placeholder="price"
                         onChange={updatePrice}
                     />
                     <Form.Control
                         className="forms"
-                        type="Price"
-                        placeholder="price"
+                        type="stock"
+                        placeholder="stock"
                         onChange={updateStock}
                     />
                     <Form.Control
@@ -110,15 +124,8 @@ function Admininventory(): JSX.Element {
                         placeholder="Image URL"
                         onChange={updatePhoto}
                     />
-                    <Form.Control
-                        className="forms"
-                        type=""
-                        placeholder="Description"
-                        onChange={updateDescription}
-                    />
                 </Form.Group>
                 ;<Button onClick={updateInventory}>Submit</Button>
-                <Button onClick={saveData}>Save new inventory</Button>
             </h2>
         );
     }
@@ -148,7 +155,13 @@ function Admininventory(): JSX.Element {
                                 <img width="20%" src={item.Photo} />
                             </td>
                             <td>
-                                <Button>Remove</Button>
+                                <Button
+                                    onClick={() =>
+                                        removeFromInventory(item.Product)
+                                    }
+                                >
+                                    Remove
+                                </Button>
                             </td>
                         </tr>
                     ))}
@@ -158,6 +171,7 @@ function Admininventory(): JSX.Element {
             <Button onClick={() => setShowAdd(!showAdd)}>
                 Add to Inventory
             </Button>
+            <Button onClick={saveData}>Save new inventory</Button>
             {showAdd == true ? form() : null}
         </div>
     );
