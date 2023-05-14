@@ -12,7 +12,7 @@ const Navbar = () => {
                     <NavLink to="/Landing">Landing</NavLink>
                     {/* <NavLink to="/Productview">Product View</NavLink> */}
                     <NavLink to="/Makeaccount">Account</NavLink>
-                    <NavLink to="/Checkout">Checkout</NavLink>
+                    <NavLink to="/Checkout">Cart</NavLink>
                     <NavLink to="/Admin">Admin</NavLink>
                     <NavLink to="/Admininventory">Admin inventory</NavLink>
                 </NavMenu>

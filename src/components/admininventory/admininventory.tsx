@@ -9,9 +9,42 @@ let inventoryData = [
         Price: "200",
         Stock: "94",
         Brand: "nike",
-        Photo: "../landingpage/lp_images/1.jpg"
+        Photo: "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/503e9eea-02dd-4f8f-91e3-6ad74a9225cc/quest-5-mens-road-running-shoes-1tmPXN.png"
+    },
+    {
+        Product: "Nike mercury3",
+        Description: "nike mercury 13 limited edition",
+        Price: "200",
+        Stock: "94",
+        Brand: "nike",
+        Photo: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&w=1000&q=80"
+    },
+    {
+        Product: "Nike Air ZOOM",
+        Description: "nike Air ZOOM",
+        Price: "200",
+        Stock: "94",
+        Brand: "nike",
+        Photo: "https://media.istockphoto.com/id/1320786676/photo/stability-and-cushion-running-shoes-new-unbranded-running-sneaker-or-trainer-on-orange.jpg?s=170667a&w=0&k=20&c=DuOyE_MjpgEmenP0GPOVffO7-Y1J-F9hL-aJ5w4wI84="
+    },
+    {
+        Product: "C.RONALDO JERSEY",
+        Description: "Nike C. RONALDO Portugal Jersey",
+        Price: "200",
+        Stock: "94",
+        Brand: "nike",
+        Photo: "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/504a9a69-9b64-411b-8673-2c917e55959f/portugal-national-team-2022-23-stadium-home-cristiano-ronaldo-mens-dri-fit-soccer-jersey-xBK2l8.png"
+    },
+    {
+        Product: "L.Messi Jersey",
+        Description: "L. Messi PSG Jersey",
+        Price: "200",
+        Stock: "94",
+        Brand: "nike",
+        Photo: "https://m.media-amazon.com/images/I/51ThXwpW4lL._AC_UY1000_.jpg"
     }
 ];
+
 const saveDataKey = "MY-PAGE-INVE-1";
 
 // Check if the user's data already exists
