@@ -9,6 +9,15 @@ interface productDetails {
     imge: string;
     description: string;
 }
+// const userCart: {
+//     Product: string;
+//     Description: string;
+//     Price: string;
+//     Brand: string;
+//     Photo: string;
+// }[] = [];
+
+// const userCartKey = "MY-PAGE-USER-CART";
 
 function Productview(props: productDetails): JSX.Element {
     const setPath = useNavigate();
