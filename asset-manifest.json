@@ -1,35 +1,17 @@
 {
   "files": {
     "main.css": "/testrelodfix/static/css/main.9c4c6622.css",
-    "main.js": "/testrelodfix/static/js/main.e5bef85c.js",
+    "main.js": "/testrelodfix/static/js/main.e6e678e1.js",
     "static/js/787.4ef7427d.chunk.js": "/testrelodfix/static/js/787.4ef7427d.chunk.js",
     "static/media/messi.jpeg": "/testrelodfix/static/media/messi.b40cf5032a7263e37cab.jpeg",
-    "static/media/17.jpg": "/testrelodfix/static/media/17.98178ea394ba415947a4.jpg",
-    "static/media/13.jpg": "/testrelodfix/static/media/13.fdd8d14eaa378c19fd9a.jpg",
-    "static/media/8.jpg": "/testrelodfix/static/media/8.b172dec58f3a881e8c43.jpg",
-    "static/media/14.jpg": "/testrelodfix/static/media/14.10a8608786e01de02504.jpg",
-    "static/media/7.jpg": "/testrelodfix/static/media/7.1b3640a4910982cd12a4.jpg",
-    "static/media/12.jpg": "/testrelodfix/static/media/12.88e7f184ede4c8f08a27.jpg",
-    "static/media/9.jpg": "/testrelodfix/static/media/9.08a8fe748e7538634322.jpg",
-    "static/media/18.jpg": "/testrelodfix/static/media/18.4dd8446299cc83f635b8.jpg",
-    "static/media/11.jpg": "/testrelodfix/static/media/11.4b3e9afe6bbf09734e90.jpg",
-    "static/media/16.jpg": "/testrelodfix/static/media/16.be29d98a58a6428c961e.jpg",
-    "static/media/15.jpg": "/testrelodfix/static/media/15.2e82f1720d88adc10291.jpg",
-    "static/media/10.jpg": "/testrelodfix/static/media/10.d5ec339534b5beca4503.jpg",
-    "static/media/3.jpg": "/testrelodfix/static/media/3.23ca51ec2739f10d081e.jpg",
-    "static/media/4.jpg": "/testrelodfix/static/media/4.b8d92ea2428c26a242fa.jpg",
-    "static/media/2.jpg": "/testrelodfix/static/media/2.4d1ee163523795fe9b14.jpg",
-    "static/media/6.jpg": "/testrelodfix/static/media/6.d8c0361bb1408e3715e6.jpg",
-    "static/media/1.jpg": "/testrelodfix/static/media/1.66cd563db11a7a4a381a.jpg",
-    "static/media/5.jpg": "/testrelodfix/static/media/5.c836ac669f447c167c01.jpg",
     "static/media/r7.jpg": "/testrelodfix/static/media/r7.499bf6e1f324a51ee496.jpg",
     "index.html": "/testrelodfix/index.html",
     "main.9c4c6622.css.map": "/testrelodfix/static/css/main.9c4c6622.css.map",
-    "main.e5bef85c.js.map": "/testrelodfix/static/js/main.e5bef85c.js.map",
+    "main.e6e678e1.js.map": "/testrelodfix/static/js/main.e6e678e1.js.map",
     "787.4ef7427d.chunk.js.map": "/testrelodfix/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c4c6622.css",
-    "static/js/main.e5bef85c.js"
+    "static/js/main.e6e678e1.js"
   ]
 }
