@@ -1,14 +1,11 @@
-/* eslint-disable indent */
-/* eslint-disable prettier/prettier */
-/* eslint-disable no-extra-parens */
 import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Stack from "react-bootstrap/Stack";
 import Button from "react-bootstrap/Button";
 import Carousel from "react-bootstrap/Carousel";
 import "./landingstyles.css";
-
 import Productview from "../productview/productview";
+/* eslint-disable no-extra-parens */
 let defaultData = [
     {
         Product: "Nike mercury",
